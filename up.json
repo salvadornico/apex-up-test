@@ -1,0 +1,7 @@
+{
+  "name": "up-test",
+  "profile": "default",
+  "regions": [
+    "ap-southeast-1"
+  ]
+}
