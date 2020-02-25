@@ -1,7 +1,7 @@
 const http = require('http')
 const dotenv = require('dotenv')
 
-dotenv.config({ path: ".env" })
+dotenv.config({ path: "./.env" })
 const { PORT = 3000 } = process.env
 
 const greeting = process.env.TEST_VALUE || "Howdy (.env file not working)"
